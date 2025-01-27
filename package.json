@@ -1,0 +1,16 @@
+{
+  "name": "examen2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "surge ./dist jvh-css-examen2.surge.sh",
+    "postdeploy": "start brave https://jvh-css-examen2.surge.sh"
+  },
+  "devDependencies": {
+    "vite": "^6.0.5"
+  }
+}
