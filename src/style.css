@@ -100,8 +100,6 @@ body {
     text-align: start;
     .img-container {
       order: 1;
-      /* min-width: 540px;
-      min-height: 446px; */
     }
     div:nth-child(2) {
       padding: 74px;
